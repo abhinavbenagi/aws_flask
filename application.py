@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello_world():
-    return " Whatshellooo skk sapp"
+    return render_template('message.html')  
 
 
 if __name__ == "__main__":
